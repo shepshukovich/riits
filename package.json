@@ -6,9 +6,13 @@
     "dev": "webpack-dev-server --config webpack.dev.js --watch --progress --colors",
     "prod": "webpack --config webpack.prod.js"
   },
-
   "dependencies": {},
   "devDependencies": {
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-loader": "^0.5.5",
+    "mini-css-extract-plugin": "^0.4.2",
+    "style-loader": "^0.23.0",
     "webpack": "^4.17.2",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.7"
