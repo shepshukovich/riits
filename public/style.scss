@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+}
+li {
+  list-style-type: none;
+  padding-right: 20px;
+}
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.container {
+  width: 1030px;
+  height: auto;
+  margin: 0 auto;
+}
+.header-content {
+  // position: fixed;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 70px;
+}
+.logo {
+  width: 96px;
+  height: 49px;
+  background: url('../components/div/img/RIITS.png') no-repeat;
+}
+.search {
+  width: 19px;
+  height: 19px;
+  border: 0;
+  background: url('../components/div/img/Search.png') no-repeat;
+}
+.login {
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid black;
+}
+.transportation-data {
+  height: 837px;
+  margin: 0 auto;
+  background: url('../components/div/img/austin-lee-169218.png') no-repeat;
+  background-size: cover;
+}
+.blabla__real-time {
+  text-transform: uppercase;
+  color: #5e2900;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 74px;
+  margin-top: 140px;
+}
+.blabla__description {
+  width: 468px;
+  margin-top: 50px;
+  margin-left: 1px;
+  line-height: 25px;
+  font-family: 'Fira Sans', sans-serif;
+}
+.buttons {
+  margin-top: 44px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 100px;
+}
+.buttons__button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  background-color: #ffd800;
+  border: 0;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-right: 25px;
+  padding-left: 31px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-right: 31px;
+}
+.mouse {
+  width: 24px;
+  height: 50px;
+  background: url('../components/div/img/mouse.png') no-repeat;
+  margin: 0 auto;
+}
+.real-time-information {
+  height: 837px;
+  background: url('../components/div/img/truck.png') no-repeat;
+  background-size: cover;
+}
+.graph-content {
+  width: 100%;
+  height: 837px;
+  background: black;
+}
+.third-page__text {
+  width: 50%;
+  height: 60px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 42px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-title_small {
+  color: #ffd200;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.page-title_bold {
+  color: #ffd200;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.third-page__graph {
+  width: 1001px;
+  height: 316px;
+  margin-bottom: 56px;
+  background: url('../components/div/img/Graph.png') no-repeat;
+}
+.graph-content-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.stats {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+}
+.stats__item {
+  width: calc(100% / 4);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.stats__number {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #ffd200;
+}
+.stats_label_1 {
+  width: 73px;
+  height: 70px;
+  background: url('../components/div/img/stats/bus.png') no-repeat;
+  background-size: contain;
+}
+.stats_label_2 {
+  width: 73px;
+  height: 70px;
+  background: url('../components/div/img/stats/buggy.png') no-repeat;
+}
+.stats_label_3 {
+  width: 73px;
+  height: 70px;
+  background: url('../components/div/img/stats/labels.png') no-repeat;
+}
+.stats_label_4 {
+  width: 73px;
+  height: 70px;
+  background: url('../components/div/img/stats/disabled.png') no-repeat;
+}
+.stats__text {
+  color: white;
+  text-align: center;
+}
