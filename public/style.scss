@@ -1,3 +1,57 @@
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+img {
+  background-size: contain;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -30,6 +84,14 @@ ul {
   justify-content: space-between;
   align-items: center;
   padding-top: 70px;
+}
+.nav-opener {
+  width: 32px;
+  height: 32px;
+  background: url('../components/div/img/hamburger-brown.png') no-repeat;
+  position: fixed;
+  left: 5px;
+  top: 5px;
 }
 .logo {
   width: 96px;
@@ -146,7 +208,6 @@ ul {
   padding-bottom: 15px;
 }
 .third-page__graph {
-  // width: 1001px;
   height: 316px;
   margin-bottom: 56px;
   background: url('../components/div/img/Graph.png') no-repeat;
@@ -237,7 +298,7 @@ ul {
   width: 629px;
   height: 739px;
   background: url('../components/div/img/night-city.png') no-repeat;
-  box-shadow: 10px 10px 8px #888888;
+  box-shadow: 0px 8px 13px #888888;
   background-size: cover;
   display: flex;
   flex-flow: column nowrap;
@@ -366,6 +427,7 @@ footer {
 }
 .footer-title {
   padding-bottom: 60px;
+  padding-bottom: 35px;
 }
 .footer-wrapper {
   padding-top: 70px;
@@ -493,9 +555,18 @@ padding-top: 20px;
 @media only screen and (max-width: 1030px) {
   .container {
     width: auto;
+    padding: 0 20px;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .nav-opener {
+    display: none;
   }
 }
 @media only screen and (max-width: 1100px) {
+  .nav-table {
+    display: none;
+  }
   .buttons {
     margin-top: 44px;
     display: flex;
@@ -515,8 +586,8 @@ padding-top: 20px;
   }
 
   .header-content {
-    flex-flow: column nowrap;
-    justify-content: space-between;
+    flex-flow: row nowrap;
+    justify-content:center;
     align-items: center;
     .search {
       margin-top: 0px;
@@ -559,6 +630,9 @@ padding-top: 20px;
   padding-bottom: 0px;
 }
 @media only screen and (max-width: 690px) {
+  .mouse, .stats {
+    padding-bottom: 30px;
+  }
   .transportation-data {
     height: auto;
   }
@@ -581,7 +655,7 @@ padding-top: 20px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
-    width: 320px;
+    width: 100%;
     margin: 0 auto 30px auto;
   }
   .graph-content {
@@ -616,6 +690,7 @@ padding-top: 20px;
   .fourth-page-pics__first {
     width: auto;
     height: auto;
+    margin-bottom: 30px;
   }
   .fourth-page-pics__others-top {
     width: auto;
@@ -636,7 +711,6 @@ padding-top: 20px;
   }
   .footer-wrapper {
     padding-top: 30px;
-    padding-bottom: 70px;
   }
   .footer-info__metro {
     margin-right: 0px;
@@ -655,4 +729,12 @@ padding-top: 20px;
     padding-right: 10px;
     text-align: center;
 }
+.page-header__button_transparent {
+    background-color: transparent;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .page-header__text_black-small {
+    font-size: 11px;
+  }
 }
