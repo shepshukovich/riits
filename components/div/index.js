@@ -27,10 +27,11 @@ $(window).on("load", function() {
   const nextSlideButton = document.getElementsByClassName('ism-button-next')[0];
   const prevSlideButton = document.getElementsByClassName('ism-button-prev')[0];
 
-  nextSlideButton.setAttribute("style", `background: url(${nextPicSrc}); background-size: cover; `);
-  prevSlideButton.setAttribute("style", `background: url(${prevPicSrc}); background-size: cover;`);
+  nextSlideButton.setAttribute("style", `background: url(${nextPicSrc}); background-size: cover; align-content: center; display: flex; flex-flow: column nowrap; justify-content: center; font-weight: bold`);
+  prevSlideButton.setAttribute("style", `background: url(${prevPicSrc}); background-size: cover; align-content: center; display: flex; flex-flow: column nowrap; justify-content: center; font-weight: bold`);
 
-
+  nextSlideButton.innerHTML = "NEXT";
+  prevSlideButton.innerHTML = "PREVIOUS";
 
 
   $(".ism-button-next, .ism-button-prev, .ism-radio-label").on("click", function(){
@@ -61,7 +62,8 @@ $(window).on("load", function() {
     const nextSlideButton = document.getElementsByClassName('ism-button-next')[0];
     const prevSlideButton = document.getElementsByClassName('ism-button-prev')[0];
 
-    nextSlideButton.setAttribute("style", `background: url(${nextPicSrc}); background-size: cover; `);
-    prevSlideButton.setAttribute("style", `background: url(${prevPicSrc}); background-size: cover;`);
+    nextSlideButton.setAttribute("style", `background: url(${nextPicSrc}); background-size: cover; align-content: center; display: flex; flex-flow: column nowrap; justify-content: center; font-weight: bold`);
+    prevSlideButton.setAttribute("style", `background: url(${prevPicSrc}); background-size: cover; align-content: center; display: flex; flex-flow: column nowrap; justify-content: center; font-weight: bold`);
+
   })
 })
