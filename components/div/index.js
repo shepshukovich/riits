@@ -1,39 +1,19 @@
 export { default as div } from "./div.html";
 export { style } from "../../public/style.scss";
 
+const toggleDropdown = function() {
+  alert(this);
+}
+
 $(window).on("load", function() {
 
-  $(".content-type").on('click', function() {
-    $("#content-type-content").toggleClass("not-shown");
-    $("#content-type__arrow").toggleClass("arrow-down");
+  $('.toggle').on('click', function(event) {
+    const target = $( event.target );
+    const dropDownContent = target[0].nextElementSibling;
+
+    $(target).toggleClass('arrow-down');
+    $(dropDownContent).toggleClass("not-shown");
   });
-
-  $(".topics").on('click', function() {
-    $("#topics-content").toggleClass("not-shown");
-    $("#topics__arrow").toggleClass("arrow-down");
-  });
-
-  $(".tags").on('click', function() {
-    $("#tags-content").toggleClass("not-shown");
-    $("#tags__arrow").toggleClass("arrow-down");
-  });
-
-  $(".format").on('click', function() {
-    $("#format-content").toggleClass("not-shown");
-    $("#format__arrow").toggleClass("arrow-down");
-  });
-
-  $(".author").on('click', function() {
-    $("#author-content").toggleClass("not-shown");
-    $("#author__arrow").toggleClass("arrow-down");
-  });
-
-  $(".license").on('click', function() {
-    $("#license-content").toggleClass("not-shown");
-    $("#license__arrow").toggleClass("arrow-down");
-  });
-
-
 
   const currentlyActive = document.getElementsByClassName("active")[0];
   const rgxp = /\d+/;
