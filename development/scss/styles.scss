@@ -2,44 +2,23 @@
 @import 'mixins';
 
 @import '../components/transportationData/transportationDataStyle';
+@import '../components/realTimeInformation/realTimeInformationStyle';
+@import '../components/graphContent/graphContentStyle';
+@import '../components/caseStudies/caseStudiesStyle';
+@import '../components/benefitsContent/benefitsContentStyle';
+@import '../components/typesTransportationData/typesTransportationDataStyle';
+@import '../components/map/mapStyle';
+@import '../components/standarts/standartsStyle';
+@import '../components/technologies/technologiesStyle';
+@import '../components/footer/footerStyle';
 
-/* The side navigation menu */
-.sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: #111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+
+* {
+  margin: 0;
+  padding: 0;
 }
-
 /* The navigation menu links */
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
 
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-    color: $white;
-}
-
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
@@ -83,86 +62,19 @@ ul {
   height: auto;
   margin: 0 auto;
 }
-.header-content {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 70px;
-}
-.nav-opener {
-  width: 32px;
-  height: 32px;
-  background: url( $images-directory + '/hamburger-brown.png' ) no-repeat;
-  position: fixed;
-  left: 5px;
-  top: 5px;
-}
-.logo {
-  width: 96px;
-  height: 49px;
-  background: url( $images-directory + '/RIITS.png' ) no-repeat;
-}
-.search {
-  width: 19px;
-  height: 19px;
-  border: 0;
-  background: url( $images-directory + '/Search.png' ) no-repeat;
-}
-.login {
-  box-sizing: border-box;
-  padding: 10px;
-  border: 1px solid black;
-}
-.transportation-data {
-  height: 837px;
-  margin: 0 auto;
-  background: url( $images-directory + '/austin-lee-169218.png' ) no-repeat;
-  background-size: cover;
-}
-.blabla__real-time {
-  text-transform: uppercase;
-  color: $dark-brown;
-  font-family: $roboto-font;
-  font-weight: bold;
-  font-size: 74px;
-  margin-top: 140px;
-}
-.blabla__description {
-  width: 468px;
-  margin-top: 50px;
-  margin-left: 1px;
-  line-height: 25px;
-}
-.buttons {
-  margin-top: 44px;
-  display: flex;
-  justify-content: flex-start;
-  margin-bottom: 100px;
-}
-.buttons__button {
-  font-family: $roboto-font;
-  font-weight: normal;
-  font-size: 12px;
-  background-color: $yellow;
-  border: 0;
-  padding-top: 20px;
-  padding-bottom: 15px;
-  padding-right: 25px;
-  padding-left: 31px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-right: 31px;
-}
-.mouse {
-  width: 24px;
-  height: 50px;
-  background: url( $images-directory + '/mouse.png' ) no-repeat;
-  margin: 0 auto;
-}
+
+
+
+
+
+
+
+
+
+
 .real-time-information {
   height: 837px;
-  background: url( $images-directory + '/truck.png' ) no-repeat;
+  background: url( '../../public/img' + '/truck.png' ) no-repeat;
   background-size: cover;
   display: flex;
   flex-flow: column nowrap;
@@ -236,7 +148,7 @@ ul {
 .third-page__graph {
   height: 316px;
   margin-bottom: 56px;
-  background: url( $images-directory + '/Graph.png' ) no-repeat;
+  background: url( '../../public/img' + '/Graph.png' ) no-repeat;
   background-size: contain;
 }
 .graph-content-wrapper {
@@ -266,23 +178,23 @@ ul {
 .stats_label_1 {
   width: 73px;
   height: 70px;
-  background: url( $images-directory + '/stats/bus.png' ) no-repeat;
+  background: url( '../../public/img' + '/stats/bus.png' ) no-repeat;
   background-size: contain;
 }
 .stats_label_2 {
   width: 73px;
   height: 70px;
-  background: url( $images-directory + '/stats/buggy.png' ) no-repeat;
+  background: url( '../../public/img' + '/stats/buggy.png' ) no-repeat;
 }
 .stats_label_3 {
   width: 73px;
   height: 70px;
-  background: url( $images-directory + '/stats/labels.png' ) no-repeat;
+  background: url( '../../public/img' + '/stats/labels.png' ) no-repeat;
 }
 .stats_label_4 {
   width: 73px;
   height: 70px;
-  background: url( $images-directory + '/stats/disabled.png' ) no-repeat;
+  background: url( '../../public/img' + '/stats/disabled.png' ) no-repeat;
 }
 .stats__text {
   color: white;
@@ -324,12 +236,12 @@ ul {
   position: relative;
   width: 7px;
   height: 4px;
-  background: url( $images-directory + '/ArrowUp.png' ) no-repeat;
+  background: url( '../../public/img' + '/ArrowUp.png' ) no-repeat;
   top: 5px;
   left: 5px;
 }
 .arrow-down::after {
-  background: url( $images-directory + '/ArrowDown.png' ) no-repeat;
+  background: url( '../../public/img' + '/ArrowDown.png' ) no-repeat;
 }
 
 .content-type-content__btn {
@@ -359,7 +271,7 @@ ul {
 .fourth-page-pics__first {
   width: 629px;
   height: 739px;
-  background: url( $images-directory + '/night-city.png' ) no-repeat;
+  background: url( '../../public/img' + '/night-city.png' ) no-repeat;
   box-shadow: 0px 8px 13px #888888;
   background-size: cover;
   display: flex;
@@ -406,7 +318,7 @@ ul {
 .fourth-page-pics__others-top {
   width: 370px;
   height: 369px;
-  background: url( $images-directory + '/hills.png' ) no-repeat;
+  background: url( '../../public/img' + '/hills.png' ) no-repeat;
   box-shadow: 0px 8px 13px #888888;
   background-size: cover;                                                                           //масштабирование под размеры
   background-position: center;
@@ -434,7 +346,7 @@ ul {
 .fourth-page-pics__pic {
   width: 109px;
   height: 111px;
-  background: url( $images-directory + '/van.png' ) no-repeat;
+  background: url( '../../public/img' + '/van.png' ) no-repeat;
 }
 .page-header__text_black-small {
   font-family: $roboto-font;
@@ -466,7 +378,7 @@ ul {
 .fourth-page-pics__pic2 {
   width: 109px;
   height: 111px;
-  background: url( $images-directory + '/cab.png' ) no-repeat;
+  background: url( '../../public/img' + '/cab.png' ) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -498,14 +410,14 @@ ul {
 .benefits-content__left-pic {
   width: 198px;
     height: 198px;
-    background: url( $images-directory + '/rocket.png' ) no-repeat;
+    background: url( '../../public/img' + '/rocket.png' ) no-repeat;
     background-position: center;
     padding-right: 30px;
 }
 .benefits-content__right-pic {
   width: 198px;
   height: 198px;
-  background: url( $images-directory + '/bcycle.png' ) no-repeat;
+  background: url( '../../public/img' + '/bcycle.png' ) no-repeat;
   padding-right: 30px;
 }
 .page-header_width-no-margin {
@@ -550,16 +462,16 @@ ul {
 }
 
 .benefits-content__plane {
-  background: url( $images-directory + '/sprites/benefits-s.png' ) 0px 0px;
+  background: url( '../../public/img' + '/sprites/benefits-s.png' ) 0px 0px;
 }
 .benefits-content__f1 {
-  background: url( $images-directory + '/sprites/benefits-s.png' ) -265px 0px;
+  background: url( '../../public/img' + '/sprites/benefits-s.png' ) -265px 0px;
 }
 .benefits-content__beatle {
-  background: url( $images-directory + '/sprites/benefits-s.png' ) -512px 0px;
+  background: url( '../../public/img' + '/sprites/benefits-s.png' ) -512px 0px;
 }
 .benefits-content__rabbit {
-  background: url( $images-directory + '/sprites/benefits-s.png' ) -790px 0px;
+  background: url( '../../public/img' + '/sprites/benefits-s.png' ) -790px 0px;
 }
 
 
@@ -603,23 +515,23 @@ footer {
   margin-right: 60px;
 }
 .facebook {
-  background: url( $images-directory + '/sprites/facebook_css_sprites.png' ) -57px -10px;;
+  background: url( '../../public/img' + '/sprites/facebook_css_sprites.png' ) -57px -10px;;
 }
 .facebook:hover {
-  background: url( $images-directory + '/sprites/facebook_css_sprites.png' ) -10px -10px;
+  background: url( '../../public/img' + '/sprites/facebook_css_sprites.png' ) -10px -10px;
 }
 .twitter {
-  background: url( $images-directory + '/sprites/twitter_css_sprites.png' ) -57px -57px;
+  background: url( '../../public/img' + '/sprites/twitter_css_sprites.png' ) -57px -57px;
 }
 .twitter:hover {
-  background: url( $images-directory + '/sprites/twitter_css_sprites.png' ) -10px -57px;
+  background: url( '../../public/img' + '/sprites/twitter_css_sprites.png' ) -10px -57px;
 }
 .instagram {
-  background: url( $images-directory + '/sprites/instagram_css_sprites.png' ) -58px -10px;
+  background: url( '../../public/img' + '/sprites/instagram_css_sprites.png' ) -58px -10px;
   margin-right: 0px;
 }
 .instagram:hover {
-  background: url( $images-directory + '/sprites/instagram_css_sprites.png' ) -10px -10px;
+  background: url( '../../public/img' + '/sprites/instagram_css_sprites.png' ) -10px -10px;
 }
 
 
@@ -734,7 +646,7 @@ footer {
 .search-results__transportation-bus-img {
   width: 15px;
   height: 19px;
-  background: url( $images-directory + '/shuffle-bus.png') no-repeat;
+  background: url( '../../public/img' + '/shuffle-bus.png') no-repeat;
   background-position: center;
 }
 .search-results {
@@ -753,7 +665,7 @@ footer {
   padding-bottom: 5px;
   color: $light-brown;
   text-transform:  uppercase;
-  background: url( $images-directory + '/zoom.png' ) no-repeat;
+  background: url( '../../public/img' + '/zoom.png' ) no-repeat;
   padding-left: 10px;
   background-position-y: 6px;
   padding-left: 35px;
@@ -774,7 +686,7 @@ footer {
 .map {
   height: 837px;
   width: 100%;
-  background: url( $images-directory + '/map.png' ) no-repeat;
+  background: url( '../../public/img' + '/map.png' ) no-repeat;
   background-size: contain;
   background-position-y: -59px;
   padding-top: 60px;
@@ -867,42 +779,42 @@ footer {
 .technologies__dot-net {
   width: 168px;
   height: 131px;
-  background: url( $images-directory + '/technologies/dotNET.png' ) no-repeat;
+  background: url( '../../public/img' + '/technologies/dotNET.png' ) no-repeat;
 }
 .technologies__open-source {
   width: 117px;
   height: 131px;
-  background: url( $images-directory + '/technologies/open-source.png') no-repeat;
+  background: url( '../../public/img' + '/technologies/open-source.png') no-repeat;
 }
 .technologies__android {
   width: 91px;
   height: 131px;
-  background: url( $images-directory + '/technologies/android.png ') no-repeat;
+  background: url( '../../public/img' + '/technologies/android.png ') no-repeat;
 }
 .technologies__amazon {
   width: 170px;
   height: 131px;
-  background: url( $images-directory + '/technologies/amazon.png' ) no-repeat;
+  background: url( '../../public/img' + '/technologies/amazon.png' ) no-repeat;
 }
 .technologies__azure {
   width: 121px;
   height: 131px;
-  background: url( $images-directory + '/technologies/azure.png' )  no-repeat;
+  background: url( '../../public/img' + '/technologies/azure.png' )  no-repeat;
 }
 .technologies__java {
   width: 143px;
   height: 131px;
-  background: url( $images-directory + '/technologies/java.png' )  no-repeat;
+  background: url( '../../public/img' + '/technologies/java.png' )  no-repeat;
 }
 .technologies__html {
   width: 87px;
   height: 131px;
-  background: url( $images-directory + '/technologies/html.png' )  no-repeat;
+  background: url( '../../public/img' + '/technologies/html.png' )  no-repeat;
 }
 .technologies__rails {
   width: 76px;
   height: 131px;
-  background: url( $images-directory + '/technologies/rails.png' )  no-repeat;
+  background: url( '../../public/img' + '/technologies/rails.png' )  no-repeat;
 }
 
 .footer-info__site-map p {
@@ -935,7 +847,7 @@ footer {
   height: 49px;
   border: 0;
   padding-bottom: 40px;
-  background: url( $images-directory + '/footer/riits_logo.png' ) no-repeat;
+  background: url( '../../public/img' + '/footer/riits_logo.png' ) no-repeat;
 }
 .footer-info__text p {
   font-family: $fira-sans-font;
@@ -962,7 +874,7 @@ footer {
   height: 103px;
   border: 0;
   margin-right: 60px;
-  background: url( $images-directory + '/footer/metro.png' ) no-repeat;
+  background: url( '../../public/img' + '/footer/metro.png' ) no-repeat;
   background-position: center;
 }
 .buttons__button_no-margin {
@@ -973,7 +885,7 @@ footer {
   width: 149px;
   height: 103px;
   border: 0;
-  background: url( $images-directory + '/footer/la.png' ) no-repeat;
+  background: url( '../../public/img' + '/footer/la.png' ) no-repeat;
 }
 
 @media only screen and (max-width: 1030px) {
@@ -992,9 +904,7 @@ footer {
   }
 }
 @media only screen and (max-width: 1100px) {
-  .nav-table {
-    display: none;
-  }
+
   .buttons {
     margin-top: 44px;
     display: flex;
@@ -1016,17 +926,7 @@ footer {
     background-position-y:-54px
   }
 
-  .header-content {
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    .search {
-      margin-top: 0px;
-    }
-    ul {
-      margin-top: 30px;
-    }
-  }
+
   ul {
     flex-flow: row nowrap;
   }
@@ -1121,9 +1021,7 @@ footer {
   .transportation-data {
     height: auto;
   }
-  .header-content ul {
-    align-items: center;
-  }
+
   .blabla__real-time {
     text-transform: uppercase;
     color: $dark-brown;

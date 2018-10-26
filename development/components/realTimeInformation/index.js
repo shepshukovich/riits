@@ -1,5 +1,5 @@
 export { default as RealTimeInformation } from './RealTimeInformation.html';
-export { defauls as realTimeInformationStyle } from './realTimeInformation.scss';
+// export { default as realTimeInformationStyle } from './realTimeInformationStyle.scss';
 
 $(window).on("load", function() {
 

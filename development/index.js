@@ -9,6 +9,8 @@ import { Standarts }                from './components/standarts';
 import { Technologies }             from './components/technologies';
 import { Footer }                   from "./components/footer";
 
+import { styles }                   from "./scss/styles.scss";
+
 const root = document.getElementById('root');
 const inn = root.innerHTML;
 root.innerHTML =  TransportationData      +

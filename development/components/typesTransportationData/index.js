@@ -1,5 +1,5 @@
 export { default as TypesTransportationData } from './TypesTransportationData.html';
-export { default as typesTransportationDataStyle } from './typesTransportationDataStyle.scss';
+// export { default as typesTransportationDataStyle } from './typesTransportationDataStyle.scss';
 
 $(window).on('load', (event) => {
   $('.toggle').on('click', function(event) {

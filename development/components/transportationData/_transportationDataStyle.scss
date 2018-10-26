@@ -1,0 +1,144 @@
+.transportation-data {
+  background: url( $images-directory + '/austin-lee-169218.png' ) no-repeat;
+  background-size: cover;
+}
+.header-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.nav-opener {
+  width: 32px;
+  height: 32px;
+  background: url( $images-directory + '/hamburger-brown.png' ) no-repeat;
+  position: fixed;
+  left: 5px;
+  top: 5px;
+}
+.logo {
+  width: 96px;
+  height: 49px;
+  background: url( $images-directory + '/RIITS.png' ) no-repeat;
+}
+.search {
+  width: 19px;
+  height: 19px;
+  border: 0;
+  background: url( $images-directory + '/Search.png' ) no-repeat;
+}
+.login {
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid black;
+}
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: $white;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.blabla__real-time {
+  text-transform: uppercase;
+  color: $dark-brown;
+  font-family: $roboto-font;
+  font-weight: bold;
+  font-size: 74px;
+  margin-bottom: 30px;
+}
+.blabla__description {
+  width: 468px;
+  margin-bottom: 50px;
+  margin-left: 1px;
+  line-height: 25px;
+}
+.buttons {
+  margin-top: 44px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 100px;
+}
+.buttons__button {
+  font-family: $roboto-font;
+  font-weight: normal;
+  font-size: 12px;
+  background-color: $yellow;
+  border: 0;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-right: 25px;
+  padding-left: 31px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-right: 31px;
+}
+.mouse {
+  width: 24px;
+  height: 50px;
+  background: url( $images-directory + '/mouse.png' ) no-repeat;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 1030px) {
+  .logo {
+    margin-top: 70px;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .header-content ul {
+    align-items: center;
+  }
+  .mouse {
+    padding-bottom: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .nav-table {
+    display: none;
+  }
+  .header-content {
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    .search {
+      margin-top: 0px;
+    }
+    ul {
+      margin-top: 30px;
+    }
+  }
+}
