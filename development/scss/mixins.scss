@@ -1,0 +1,4 @@
+@mixin color-size($col, $siz) {
+  color: $col;
+  size:  $siz;
+}
