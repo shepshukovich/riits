@@ -1,0 +1,30 @@
+.container {
+  width: 1030px;
+  height: auto;
+  margin: 0 auto;
+}
+.buttons {
+  margin-top: 44px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 100px;
+}
+.page-header {
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 42px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+@media only screen and (max-width: 1030px) {
+  .container {
+    width: auto;
+    padding: 0 20px;
+  }
+}

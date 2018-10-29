@@ -1,0 +1,69 @@
+.technologies {
+  height: auto;
+  background: $white;
+}
+.technologies-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.technologies__pics {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+// .technologies__pic {
+//   width: 1142px;
+//   height: 131px;
+//   background: url('../components/div/img/technologies.png') no-repeat;
+//   background-size: contain;
+// }
+
+.technologies__dot-net {
+  width: 168px;
+  height: 131px;
+  background: url( '../../public/img' + '/technologies/dotNET.png' ) no-repeat;
+}
+.technologies__open-source {
+  width: 117px;
+  height: 131px;
+  background: url( '../../public/img' + '/technologies/open-source.png') no-repeat;
+}
+.technologies__android {
+  width: 91px;
+  height: 131px;
+  background: url( '../../public/img' + '/technologies/android.png ') no-repeat;
+}
+.technologies__amazon {
+  width: 170px;
+  height: 131px;
+  background: url( '../../public/img' + '/technologies/amazon.png' ) no-repeat;
+}
+.technologies__azure {
+  width: 121px;
+  height: 131px;
+  background: url( '../../public/img' + '/technologies/azure.png' )  no-repeat;
+}
+.technologies__java {
+  width: 143px;
+  height: 131px;
+  background: url( '../../public/img' + '/technologies/java.png' )  no-repeat;
+}
+.technologies__html {
+  width: 87px;
+  height: 131px;
+  background: url( '../../public/img' + '/technologies/html.png' )  no-repeat;
+}
+.technologies__rails {
+  width: 76px;
+  height: 131px;
+  background: url( '../../public/img' + '/technologies/rails.png' )  no-repeat;
+}
+
+@media only screen and (max-width: 1100px) {
+  .technologies__pics {
+    align-items: center;
+  }
+}

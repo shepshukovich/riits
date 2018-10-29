@@ -1,0 +1,99 @@
+.benefits-content {
+  height: auto;
+  background: $white;
+  margin-bottom: 60px;
+}
+.benefits-content-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+.benefits-content__large-pics {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-bottom: 130px;
+}
+.benefits-content__pic {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  width: 50%;
+}
+.benefits-content__left-pic {
+  width: 198px;
+    height: 198px;
+    background: url( '../../public/img' + '/rocket.png' ) no-repeat;
+    background-position: center;
+    padding-right: 30px;
+}
+.benefits-content__right-pic {
+  width: 198px;
+  height: 198px;
+  background: url( '../../public/img' + '/bcycle.png' ) no-repeat;
+  padding-right: 30px;
+}
+.benefits-content__small-pics {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.benefits-content__small-pic-wrapper {
+  height: 300px;
+  max-width: 250px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+}
+.benefits-content__small-pic {
+  margin: 0 auto;
+  width: 75%;
+  min-height: 225px;
+  // background: url('../components/div/img/sprites/benefits-s.png') -58px -10px;
+}
+.benefits-content__small-pic-wrapper:hover {
+  background: white;
+  box-shadow: 0px 8px 13px #888888;
+}
+.benefits-content__img {
+  height: 100px;
+  width: 155px;
+}
+.benefits-content__plane {
+  background: url( '../../public/img' + '/sprites/benefits-s.png' ) 0px 0px;
+}
+.benefits-content__f1 {
+  background: url( '../../public/img' + '/sprites/benefits-s.png' ) -265px 0px;
+}
+.benefits-content__beatle {
+  background: url( '../../public/img' + '/sprites/benefits-s.png' ) -512px 0px;
+}
+.benefits-content__rabbit {
+  background: url( '../../public/img' + '/sprites/benefits-s.png' ) -790px 0px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .benefits-content__large-pics {
+    flex-flow: column wrap;
+  }
+  .benefits-content__large-pics {
+    align-items: center;
+  }
+  .benefits-content__pic {
+    width: 100%;
+  }
+  .benefits-content__large-pics {
+    padding-bottom: 0px;
+  }
+  .benefits-content__small-pics {
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .benefits-content__pic {
+    margin-bottom: 30px;
+    flex-flow: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,41 @@
+.map {
+  height: 837px;
+  width: 100%;
+  background: url( '../../public/img' + '/map.png' ) no-repeat;
+  background-size: contain;
+  background-position-y: -59px;
+  padding-top: 60px;
+}
+.map-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.map__info {
+  width: 300px;
+  background: $yellow;
+  padding: 0 30px;
+  padding-top: 60px;
+  padding-bottom: 42px;
+  box-sizing: border-box;
+}
+.map__info-container {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+.footer-info__site-map p {
+  font-family: $fira-sans-font;
+  font-size: 13px;
+  font-weight: bold;
+  color: $light-grey;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1100px) {
+  .map {
+    background-position-y:-54px
+  }
+}

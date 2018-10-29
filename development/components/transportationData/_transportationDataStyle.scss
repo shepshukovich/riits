@@ -83,12 +83,7 @@
   margin-left: 1px;
   line-height: 25px;
 }
-.buttons {
-  margin-top: 44px;
-  display: flex;
-  justify-content: flex-start;
-  margin-bottom: 100px;
-}
+
 .buttons__button {
   font-family: $roboto-font;
   font-weight: normal;
@@ -117,16 +112,45 @@
   }
 }
 @media only screen and (max-width: 690px) {
+  .buttons {
+    margin-top: 44px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto 30px auto;
+  }
   .header-content ul {
     align-items: center;
   }
   .mouse {
     padding-bottom: 30px;
   }
+  .blabla__real-time {
+    text-transform: uppercase;
+    color: $dark-brown;
+    font-family: $roboto-font;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .blabla__description {
+    width: auto;
+    text-align: center;
+  }
+  .transportation-data {
+    height: auto;
+  }
 }
 
-
 @media only screen and (max-width: 1100px) {
+  .buttons {
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    width: 450px;
+    margin: 0 auto 220px auto;
+  }
   .nav-table {
     display: none;
   }
@@ -140,5 +164,13 @@
     ul {
       margin-top: 30px;
     }
+  }
+  .blabla__real-time {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .blabla__description {
+    margin: 0px auto 30px auto;
   }
 }

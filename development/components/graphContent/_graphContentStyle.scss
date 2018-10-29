@@ -1,0 +1,86 @@
+.graph-content {
+  width: 100%;
+  height: 837px;
+  background: black;
+}
+.graph-content-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.third-page__graph {
+  height: 316px;
+  margin-bottom: 56px;
+  background: url( '../../public/img' + '/Graph.png' ) no-repeat;
+  background-size: contain;
+}
+.stats {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+}
+.stats__item {
+  width: calc(100% / 4);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.stats_label_1 {
+  width: 73px;
+  height: 70px;
+  background: url( '../../public/img' + '/stats/bus.png' ) no-repeat;
+  background-size: contain;
+}
+.stats__number {
+  font-family: $roboto-font;
+  font-weight: bold;
+  font-size: 30px;
+  color: $yellow;
+}
+.stats__text {
+  color: white;
+  text-align: center;
+}
+.stats_label_2 {
+  width: 73px;
+  height: 70px;
+  background: url( '../../public/img' + '/stats/buggy.png' ) no-repeat;
+}
+.stats_label_3 {
+  width: 73px;
+  height: 70px;
+  background: url( '../../public/img' + '/stats/labels.png' ) no-repeat;
+}
+.stats_label_4 {
+  width: 73px;
+  height: 70px;
+  background: url( '../../public/img' + '/stats/disabled.png' ) no-repeat;
+}
+
+@media only screen and (max-width: 690px) {
+  .graph-content {
+    height: auto;
+  }
+  .graph-content-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .third-page__graph {
+    height: 100px;
+    margin-bottom: 0px;
+    background-position: center;
+    background-size: contain;
+  }
+  .stats {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+}
