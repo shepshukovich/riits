@@ -89,32 +89,3 @@
   background-size: cover;
   background-position: center;
 }
-
-@media only screen and (max-width: 690px) {
-  .fourth-page-pics {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
-  }
-  .fourth-page-pics__first {
-    width: auto;
-    height: auto;
-    margin-bottom: 30px;
-  }
-  .fourth-page-pics__others-top {
-    width: auto;
-    height: auto;
-    margin-bottom: 30px;
-  }
-  .fourth-page-pics__others-bottom {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    width: auto;
-    height: auto;
-    margin-bottom: 30px;
-  }
-  .case-studies {
-    height: auto;
-  }
-}

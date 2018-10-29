@@ -1,0 +1,94 @@
+@media only screen and (max-width: 690px) {
+  .buttons {
+    margin-top: 44px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto 30px auto;
+  }
+  .header-content ul {
+    align-items: center;
+  }
+  .mouse {
+    padding-bottom: 30px;
+  }
+  .blabla__real-time {
+    text-transform: uppercase;
+    color: $dark-brown;
+    font-family: $roboto-font;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .blabla__description {
+    width: auto;
+    text-align: center;
+  }
+  .transportation-data {
+    height: auto;
+  }
+
+
+  .graph-content {
+    height: auto;
+  }
+  .graph-content-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .third-page__graph {
+    height: 100px;
+    margin-bottom: 0px;
+    background-position: center;
+    background-size: contain;
+  }
+  .stats {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+
+  .fourth-page-pics {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+  }
+  .fourth-page-pics__first {
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .fourth-page-pics__others-top {
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .fourth-page-pics__others-bottom {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .case-studies {
+    height: auto;
+  }
+
+
+  .benefits-content__pic {
+    margin-bottom: 30px;
+    flex-flow: column;
+    align-items: center;
+  }
+
+
+  .search-results__search-input {
+    width: 100%;
+  }
+}

@@ -1,0 +1,172 @@
+@media only screen and (max-width: 1030px) {
+  .logo {
+    margin-top: 70px;
+  }
+  .footer-wrapper {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .buttons {
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    width: 450px;
+    margin: 0 auto 220px auto;
+  }
+  .nav-table {
+    display: none;
+  }
+  .header-content {
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    .search {
+      margin-top: 0px;
+    }
+    ul {
+      margin-top: 30px;
+    }
+  }
+  .blabla__real-time {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .blabla__description {
+    margin: 0px auto 30px auto;
+  }
+
+  //realTimeInformation
+
+  //realTimeInformation
+
+
+  .benefits-content__large-pics {
+    flex-flow: column wrap;
+  }
+  .benefits-content__large-pics {
+    align-items: center;
+  }
+  .benefits-content__pic {
+    width: 100%;
+  }
+  .benefits-content__large-pics {
+    padding-bottom: 0px;
+  }
+  .benefits-content__small-pics {
+    justify-content: space-around;
+  }
+
+
+  .types-transportation-data__schedule {
+      flex-flow: column wrap;
+  }
+  .types-transportation-data__schedule {
+    align-items: center;
+  }
+  .types-transportation-data-wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .search-results__search-field {
+    flex-flow: column wrap;
+  }
+  .search-results__search-input {
+    font-size: 25px;
+  }
+  .search-results__zoom-glass {
+    display: none;
+  }
+  .dropdowns{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .search-results__search-button {
+    width: 100%;
+  }
+  .search-results__search-input {
+    width: auto;
+  }
+  .search-results__zoom-glass {
+    width: 10%;
+  }
+  .search-results__search-input {
+    padding-left: 0px;
+  }
+  .dropdown {
+    // width: 16%;
+    padding-right: 10px;
+  }
+  .search-results {
+    width: auto;
+  }
+
+
+  .map {
+    background-position-y:-54px
+  }
+
+
+  .standarts__text {
+    flex-flow: column wrap;
+  }
+  .standarts__text {
+    align-items: center;
+  }
+  .standarts__text-left, .standarts__text-middle, .standarts__text-right, .technologies__pics {
+    width: 85%;
+  }
+
+
+  .technologies__pics {
+    align-items: center;
+  }
+
+
+  .footer-info, .footer-info__page-links {
+    flex-flow: column wrap;
+  }
+  .footer-wrapper, .footer-info, .footer-info__left {
+    align-items: center;
+  }
+  .footer-info__right {
+    margin-top: 40px;
+    align-items: center;
+  }
+
+  .footer-info__page-links li {
+    padding-top: 20px;
+    text-align: center;
+  }
+  .footer-info__text p {
+    text-align: center;
+  }
+  .footer-info__instagram, .buttons__button {
+    margin-right: 0px;
+  }
+  .footer-info__page-links li {
+    padding-right: 0px;
+    text-align: center;
+  }
+  .footer-title {
+    padding-top: 0px;
+    text-align: center;
+  }
+  .footer-wrapper {
+    padding-top: 30px;
+  }
+  .footer-info__metro {
+    margin-right: 0px;
+}
+
+  .footer-info__other-logos {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

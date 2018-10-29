@@ -61,9 +61,3 @@
   height: 131px;
   background: url( '../../public/img' + '/technologies/rails.png' )  no-repeat;
 }
-
-@media only screen and (max-width: 1100px) {
-  .technologies__pics {
-    align-items: center;
-  }
-}

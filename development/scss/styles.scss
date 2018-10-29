@@ -205,3 +205,6 @@
     font-size: 11px;
   }
 }
+
+@import './adaptive/tablet';
+@import './adaptive/phone';

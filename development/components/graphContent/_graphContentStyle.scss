@@ -58,29 +58,3 @@
   height: 70px;
   background: url( '../../public/img' + '/stats/disabled.png' ) no-repeat;
 }
-
-@media only screen and (max-width: 690px) {
-  .graph-content {
-    height: auto;
-  }
-  .graph-content-wrapper {
-    display: flex;
-    flex-flow: column nowrap;
-  }
-  .third-page__graph {
-    height: 100px;
-    margin-bottom: 0px;
-    background-position: center;
-    background-size: contain;
-  }
-  .stats {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    padding-bottom: 30px;
-  }
-
-}
