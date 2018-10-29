@@ -1,9 +1,9 @@
 .map {
   height: 837px;
   width: 100%;
-  background: url( '../../public/img' + '/map.png' ) no-repeat;
-  background-size: contain;
-  background-position-y: -59px;
+  background: url( $images-directory + '/map.png' ) no-repeat;
+  background-size: cover;
+  background-position-y: -365px;
   padding-top: 60px;
 }
 .map-wrapper {
