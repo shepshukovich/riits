@@ -1,4 +1,12 @@
 @media only screen and (max-width: 690px) {
+  .page-header__button_transparent {
+      background-color: transparent;
+      padding-right: 25px;
+      padding-left: 25px;
+    }
+  .large-txt {
+    font-size: 25px;
+  }
   .buttons {
     margin-top: 44px;
     display: flex;

@@ -3,12 +3,6 @@
   height: auto;
   margin: 0 auto;
 }
-.buttons {
-  margin-top: 44px;
-  display: flex;
-  justify-content: flex-start;
-  margin-bottom: 100px;
-}
 .page-title {
   margin: 0 auto;
   padding-top: 60px;
@@ -18,9 +12,12 @@
   justify-content: space-between;
   align-items: center;
 }
-
-
-
+.buttons {
+  margin-top: 44px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 100px;
+}
 
 @media only screen and (max-width: 1030px) {
   .container {
