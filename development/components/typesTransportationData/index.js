@@ -5,6 +5,9 @@ $(window).on('load', (event) => {
   $('.toggle').on('click', function(event) {
     const target = $( event.target );
     const dropDownContent = target[0].nextElementSibling;
+// console.log(dropDownContent);
+
+  // $(dropDownContent).style.color = "qweqweqwe";
 
     $(target).toggleClass('arrow-down');
     $(dropDownContent).toggleClass("not-shown");
