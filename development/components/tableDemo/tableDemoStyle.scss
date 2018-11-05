@@ -15,7 +15,7 @@
   }
 
   tr:nth-child(even) td:first-child {
-      background: #ff6c6e; /* fallback for old browsers */
+      background: #f0f0f0; /* fallback for old browsers */
   }
   table {
     padding: 100px 10px 15px;
@@ -37,7 +37,8 @@
 
       tr {
         font-size: 18px;
-
+        font-weight: bold;
+        background: #d8d8d8;
         td {
           padding-bottom: 15px;
         }
@@ -67,9 +68,9 @@
     }
 
     tr:nth-child(even) {
-      background: #ff5f6d; /* fallback for old browsers */
-      background: linear-gradient(to right, rgba(#ff5f6d, .5), rgba(#ffc371, .5)); /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to right, #ff5f6d, #ffc371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background: #f0f0f0; /* fallback for old browsers */
+      // background: linear-gradient(to right, rgba(#ff5f6d, .5), rgba(#ffc371, .5)); /* Chrome 10-25, Safari 5.1-6 */
+      // background: linear-gradient(to right, #ff5f6d, #ffc371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
 
     td {
