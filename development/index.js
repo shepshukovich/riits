@@ -1,3 +1,4 @@
+import { TableDemo }                from './components/tableDemo';
 import { TransportationData }       from './components/transportationData';
 import { RealTimeInformation }      from './components/realTimeInformation';
 import { GraphContent }             from './components/graphContent';
@@ -13,7 +14,8 @@ import { styles }                   from "./scss/styles.scss";
 
 const root = document.getElementById('root');
 const inn = root.innerHTML;
-root.innerHTML =  TransportationData      +
+root.innerHTML =  TableDemo               +
+                  TransportationData      +
                   RealTimeInformation     +
                   GraphContent            +
                   CaseStudies             +
