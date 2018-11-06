@@ -3,23 +3,37 @@
   background: $white;
   margin-bottom: 60px;
 }
+.benefits-content ul li:nth-child(1) {
+  width: 50%;
+  padding-right: 0px;
+  padding-bottom: 30px;
+}
+.benefits-content ul li:nth-child(2) {
+  width: 50%;
+  padding-right: 0px;
+  padding-bottom: 30px;
+}
+
 .benefits-content-wrapper {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
 }
+
 .benefits-content__large-pics {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   padding-bottom: 130px;
 }
+
 .benefits-content__pic {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
   width: 50%;
 }
+
 .benefits-content__left-pic {
   width: 198px;
     height: 198px;
@@ -27,17 +41,20 @@
     background-position: center;
     padding-right: 30px;
 }
+
 .benefits-content__right-pic {
   width: 198px;
   height: 198px;
   background: url( '../../public/img' + '/bcycle.png' ) no-repeat;
   padding-right: 30px;
 }
+
 .benefits-content__small-pics {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
 }
+
 .benefits-content__small-pic-wrapper {
   height: 300px;
   max-width: 250px;
@@ -51,23 +68,29 @@
   min-height: 225px;
   // background: url('../components/div/img/sprites/benefits-s.png') -58px -10px;
 }
+
 .benefits-content__small-pic-wrapper:hover {
   background: white;
   box-shadow: 0px 8px 13px #888888;
 }
+
 .benefits-content__img {
   height: 100px;
   width: 155px;
 }
+
 .benefits-content__plane {
   background: url( '../../public/img' + '/sprites/benefits-s.png' ) 0px 0px;
 }
+
 .benefits-content__f1 {
   background: url( '../../public/img' + '/sprites/benefits-s.png' ) -265px 0px;
 }
+
 .benefits-content__beatle {
   background: url( '../../public/img' + '/sprites/benefits-s.png' ) -512px 0px;
 }
+
 .benefits-content__rabbit {
   background: url( '../../public/img' + '/sprites/benefits-s.png' ) -790px 0px;
 }
