@@ -14,7 +14,8 @@ import { styles }                   from "./scss/styles.scss";
 
 const root = document.getElementById('root');
 const inn = root.innerHTML;
-root.innerHTML =  TableDemo               +
+root.innerHTML =
+                  // TableDemo               +
                   TransportationData      +
                   RealTimeInformation     +
                   GraphContent            +

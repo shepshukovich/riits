@@ -9,6 +9,7 @@
   align-items: center;
   padding-top: 70px;
   padding-bottom: 70px;
+  margin-bottom: -120px;
 }
 .nav-opener {
   width: 32px;
@@ -24,7 +25,7 @@
   background: url( $images-directory + '/RIITS.png' ) no-repeat;
 }
 .search {
-  width: 19px;
+  // width: 19px;
   height: 19px;
   border: 0;
   background: url( $images-directory + '/Search.png' ) no-repeat;
@@ -76,6 +77,7 @@
   font-weight: bold;
   font-size: 74px;
   margin-bottom: 30px;
+  padding-top: 280px;
 }
 .blabla__description {
   width: 468px;
