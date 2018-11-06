@@ -5,15 +5,18 @@
   background: $white;
   border-top: 1px solid #7a7b7b;
 }
+
 .case-studies-wrapper {
   display: flex;
   flex-flow: column nowrap;
 }
+
 .fourth-page-pics {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
 }
+
 .fourth-page-pics__first {
   width: 629px;
   height: 739px;
@@ -24,10 +27,12 @@
   flex-flow: column nowrap;
   justify-content: space-between;
 }
+
 .fourth-page-pics__first:hover {
   box-shadow: 0px 10px 8px #888888;
   transition: 1s ease-in-out;
 }
+
 .fourth-page-pics__inner {
   width: 50%;
   height: 100%;
@@ -36,6 +41,7 @@
   flex-flow: column nowrap;
   justify-content: space-between;
 }
+
 .page-header__button {
   margin: 0 auto;
   margin-bottom: 60px;
@@ -45,6 +51,7 @@
   flex-flow: column nowrap;
   justify-content: space-between;
 }
+
 .fourth-page-pics__others-top {
   width: 370px;
   height: 369px;
@@ -56,6 +63,7 @@
   flex-flow: column nowrap;
   justify-content: flex-end;
 }
+
 .fourth-page-pics__inner {
   width: 65%;
 }
@@ -66,6 +74,7 @@
   width: 370px;
   height: 292px;
 }
+
 .fourth-page-pics__others-bottom-left {
   width: 45%;
   display: flex;
@@ -73,6 +82,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .fourth-page-pics__pic {
   width: 109px;
   height: 111px;
@@ -85,6 +95,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .fourth-page-pics__pic2 {
   width: 109px;
   height: 111px;

@@ -1,18 +1,21 @@
 .graph-content {
   width: 100%;
-  height: 837px;
+  height: auto;
   background: black;
 }
+
 .graph-content-wrapper {
   display: flex;
   flex-flow: column nowrap;
 }
+
 .third-page__graph {
   height: 316px;
   margin-bottom: 56px;
   background: url( '../../public/img' + '/Graph.png' ) no-repeat;
   background-size: contain;
 }
+
 .stats {
   display: flex;
   flex-flow: row nowrap;
@@ -20,41 +23,45 @@
   align-items: center;
   width: 100%;
   height: 200px;
+  padding-bottom: 60px;
 }
+
 .stats__item {
   width: calc(100% / 4);
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
 }
+
 .stats_label_1 {
-  width: 73px;
-  height: 70px;
+  @include graph-label(73px, 70px);
   background: url( '../../public/img' + '/stats/bus.png' ) no-repeat;
   background-size: contain;
 }
+
 .stats__number {
   font-family: $roboto-font;
   font-weight: bold;
   font-size: 30px;
   color: $yellow;
 }
+
 .stats__text {
   color: white;
   text-align: center;
 }
+
 .stats_label_2 {
-  width: 73px;
-  height: 70px;
+  @include graph-label(73px, 70px);
   background: url( '../../public/img' + '/stats/buggy.png' ) no-repeat;
 }
+
 .stats_label_3 {
-  width: 73px;
-  height: 70px;
+  @include graph-label(73px, 70px);
   background: url( '../../public/img' + '/stats/labels.png' ) no-repeat;
 }
+
 .stats_label_4 {
-  width: 73px;
-  height: 70px;
+  @include graph-label(73px, 70px);
   background: url( '../../public/img' + '/stats/disabled.png' ) no-repeat;
 }

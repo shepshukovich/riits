@@ -2,3 +2,8 @@
   color: $col;
   size:  $siz;
 }
+
+@mixin graph-label($w, $h) {
+  width: $w;
+  height: $h;
+}
